@@ -17,6 +17,7 @@ object Constants {
 
     const val search_url = "affiliate/v3/ItemList?output=${output}&site=DMM.com&offset=21&service=digital&hits=10&keyword=佐藤&page=2&floor=idol&sort=date&api_id=Bu045c0gVX51t1zMwn22&affiliate_id=modemode-990"
 
-    const val keyword_search_url = "affiliate/v3/ItemList?output=${output}&site=DMM.com&service=digital&hits=${hits}&page=1&floor=idol&sort=date&api_id=Bu045c0gVX51t1zMwn22&affiliate_id=modemode-990"
+    const val keyword_search_url = "affiliate/v3/ItemList?output=${output}&site=DMM.com&service=digital&hits=${hits}&page=1&floor=idol&sort=date&api_id=${api_id}&affiliate_id=${affiliate_id}"
 
+    const val actress_search_url = "affiliate/v3/ActressSearch?output=${output}&api_id=${api_id}&page=1&sort=name&hits=${hits}&affiliate_id=${affiliate_id}"
 }
