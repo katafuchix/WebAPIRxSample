@@ -35,8 +35,8 @@ class TabAdapter(fm: FragmentManager, private val context: Context): FragmentPag
 
     override fun getPageTitle(position: Int): CharSequence? {
         when(position){
-            0 -> { return "tab_01" }
-            else ->  { return "tab_02" }
+            0 -> { return "作品検索" }
+            else ->  { return "女優検索" }
         }
     }
 
